@@ -1,0 +1,119 @@
+
+/* *{
+    outline: 0.5px solid blue;
+    box-sizing: border-box;
+} */
+
+.bg-color{
+    background: #ead6e4;
+}
+
+.bg-main{
+    height: 80vh;
+    position: relative;
+}
+
+@media only screen and (max-width: 500px) {
+    .bg-main{
+        height: 90vh;
+    }
+}
+
+
+/*shap divider */
+.custom-shape-divider-bottom-1722679627 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1722679627 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 99px;
+}
+
+.custom-shape-divider-bottom-1722679627 .shape-fill {
+    fill: #ffffff;
+}
+
+
+/* daily fodd section */
+.daily-food{
+    height: 180px;
+}
+
+.restaurant-img{
+    height: 250px;
+}
+
+.card:hover{
+    box-shadow: rgba(149, 157, 165, 0.2)0 8px 24px ;
+}
+
+
+.fast-delivery{
+    background: #000;
+}
+
+/* contact & footer*/
+.contact-us{
+    background: #000000;
+    position: relative;
+    height: 90vh;
+    
+}
+
+.contact-us-container{
+    width: 50vw;
+}
+
+@media only screen and (max-width: 500px) {
+    .contact-us-container{
+        width: 100vw;
+    }
+}
+
+.footer{
+    background: #000;
+}
+
+.footer-contact{
+    width: 70vw;
+    margin-left: 15vw;
+    background: #000;
+}
+
+@media only screen and (min-width: 500px) {
+    .footer-contact{
+       
+    }
+}
+
+
+/* footer shapdivider */
+
+.custom-shape-divider-top-1722688413 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1722688413 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 112px;
+}
+
+.custom-shape-divider-top-1722688413 .shape-fill {
+    fill: #ffffff;
+}
