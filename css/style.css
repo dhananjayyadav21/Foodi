@@ -61,6 +61,13 @@
     background: #000;
 }
 
+@media only screen and (max-width: 500px) {
+    .daily-food{
+        height: 70px;
+        width:50px ;
+    }
+}
+
 /* contact & footer*/
 .contact-us{
     background: #000000;
